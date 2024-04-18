@@ -1,10 +1,1 @@
-Writing a blog post about what happens when you type "https://www.google.com" in your browser and press Enter involves explaining a series of steps involving DNS requests, TCP/IP, firewalls, HTTPS/SSL, load balancers, web servers, application servers, and databases. Here's a brief overview of each step:
-DNS request: When you type "https://www.google.com" in your browser, your computer first needs to resolve the domain name "www.google.com" to an IP address. It does this by sending a DNS (Domain Name System) request to a DNS server.
-TCP/IP: Once the IP address is obtained, your browser uses the TCP (Transmission Control Protocol) to establish a connection with the server hosting Google's website. TCP ensures that data is reliably transmitted between your computer and the server.
-Firewall: The firewall on your computer or network may check the outgoing request to ensure it complies with security policies. If the request is deemed safe, it is allowed to proceed.
-HTTPS/SSL: When the connection is established, your browser and the server negotiate an HTTPS (Hypertext Transfer Protocol Secure) connection. This involves the use of SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security), to encrypt the data exchanged between your browser and the server.
-Load balancer: Google likely uses load balancers to distribute incoming traffic across multiple servers. This ensures that no single server is overwhelmed and helps improve the performance and reliability of the website.
-Web server: Once the request reaches Google's servers, it is processed by a web server. The web server retrieves the requested web page or resource and sends it back to your browser.
-Application server: In some cases, the web server may need to interact with an application server to process dynamic content or perform specific tasks. The application server runs the necessary software to handle these requests.
-Database: If the requested content is stored in a database, the application server may query the database to retrieve the required information. The database server responds with the requested data, which is then sent back to your browser for display.
-
+https://docs.google.com/document/d/e/2PACX-1vSnQCVDt-L2WAGM_CZBQIar1HXs_y2J9sHTVc6VXYPfb-2eRMMyOim-0D2lDwIFs8phRsBAKe-EVvBy/pub?fbclid=IwAR0BP-M0aLNIgwcIntTXC1q00-jfFJWgPSIr-ZTJ9uH3KQJC94ZbjW6U37s
